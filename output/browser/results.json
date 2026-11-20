@@ -1,0 +1,78 @@
+[
+  {
+    "page": "video",
+    "language": "en",
+    "device": "desktop",
+    "viewport": [
+      1280,
+      900
+    ],
+    "checks": [
+      "no horizontal overflow",
+      "no JavaScript exceptions",
+      "no external network requests",
+      "three segment views",
+      "copyable prompt text",
+      "keyboard segment selection"
+    ],
+    "passed": true,
+    "screenshot": "video-en-desktop.png"
+  },
+  {
+    "page": "video",
+    "language": "zh-CN",
+    "device": "desktop",
+    "viewport": [
+      1280,
+      900
+    ],
+    "checks": [
+      "no horizontal overflow",
+      "no JavaScript exceptions",
+      "no external network requests",
+      "three segment views",
+      "copyable prompt text",
+      "keyboard segment selection"
+    ],
+    "passed": true,
+    "screenshot": "video-zh-CN-desktop.png"
+  },
+  {
+    "page": "video",
+    "language": "en",
+    "device": "mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "checks": [
+      "no horizontal overflow",
+      "no JavaScript exceptions",
+      "no external network requests",
+      "three segment views",
+      "copyable prompt text",
+      "keyboard segment selection"
+    ],
+    "passed": true,
+    "screenshot": "video-en-mobile.png"
+  },
+  {
+    "page": "video",
+    "language": "zh-CN",
+    "device": "mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "checks": [
+      "no horizontal overflow",
+      "no JavaScript exceptions",
+      "no external network requests",
+      "three segment views",
+      "copyable prompt text",
+      "keyboard segment selection"
+    ],
+    "passed": true,
+    "screenshot": "video-zh-CN-mobile.png"
+  }
+]

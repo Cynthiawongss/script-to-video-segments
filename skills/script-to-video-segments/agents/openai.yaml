@@ -1,0 +1,4 @@
+interface:
+  display_name: "Script to Video Segments"
+  short_description: "Plan connected video segments without losing dialogue"
+  default_prompt: "Use $script-to-video-segments to split this approved script into timed generation segments with dialogue and continuity checks."

@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "title": "The last label",
+  "planning": {
+    "target_seconds": 30,
+    "max_segment_seconds": 10,
+    "limit_basis": "Provisional sample constraint; verify the chosen generation tool before rendering.",
+    "speech_unit": "whitespace_words",
+    "max_units_per_second": 3
+  },
+  "locks": {
+    "MIRA": "Mira, teal work shirt, standing on screen left. Natural unhurried speech.",
+    "NOAH": "Noah, grey sweater, seated on screen right. Natural unhurried speech.",
+    "ROOM": "Small packing desk; one parcel, one label printer, one monitor. Morning light from screen left. Keep screen direction.",
+    "LOOK": "16:9 restrained live-action study. Stable camera within each shot; editorial cuts allowed. Soft room sound. No added dialogue, narrator or music."
+  },
+  "source_dialogue": [
+    {
+      "id": "D1",
+      "speaker": "MIRA",
+      "text": "This is the last label."
+    },
+    {
+      "id": "D2",
+      "speaker": "NOAH",
+      "text": "Check the address before we print."
+    },
+    {
+      "id": "D3",
+      "speaker": "MIRA",
+      "text": "It still has the old room number."
+    },
+    {
+      "id": "D4",
+      "speaker": "NOAH",
+      "text": "Change it to twelve."
+    },
+    {
+      "id": "D5",
+      "speaker": "MIRA",
+      "text": "Twelve. Now it matches."
+    },
+    {
+      "id": "D6",
+      "speaker": "NOAH",
+      "text": "Ready to send."
+    }
+  ],
+  "omissions": [],
+  "segments": [
+    {
+      "id": "A",
+      "duration": 10,
+      "lock_ids": [
+        "MIRA",
+        "NOAH",
+        "ROOM",
+        "LOOK"
+      ],
+      "opening_state": {
+        "location": "packing desk",
+        "mira": "standing left",
+        "noah": "seated right",
+        "screen": "room 21",
+        "label": "blank stock in printer",
+        "light": "morning from left"
+      },
+      "closing_state": {
+        "location": "packing desk",
+        "mira": "standing left",
+        "noah": "seated right",
+        "screen": "room 21",
+        "label": "blank stock in printer",
+        "light": "morning from left"
+      },
+      "bridge": "",
+      "beats": [
+        {
+          "start": 0,
+          "end": 4,
+          "camera": "Wide stable view.",
+          "action": "Mira points at the remaining label stock without removing it.",
+          "audio": "Quiet room tone under dialogue.",
+          "dialogue": [
+            {
+              "id": "D1",
+              "speaker": "MIRA",
+              "text": "This is the last label."
+            }
+          ],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          }
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "camera": "Cut to Noah, maintaining the established axis.",
+          "action": "Noah looks from the printer to the monitor.",
+          "audio": "Noah speaks; room tone continues.",
+          "dialogue": [
+            {
+              "id": "D2",
+              "speaker": "NOAH",
+              "text": "Check the address before we print."
+            }
+          ],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          }
+        },
+        {
+          "start": 8,
+          "end": 10,
+          "camera": "Cut to monitor insert.",
+          "action": "Room 21 is visible; no typing yet.",
+          "audio": "Room tone only.",
+          "dialogue": [],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "duration": 10,
+      "lock_ids": [
+        "MIRA",
+        "NOAH",
+        "ROOM",
+        "LOOK"
+      ],
+      "opening_state": {
+        "location": "packing desk",
+        "mira": "standing left",
+        "noah": "seated right",
+        "screen": "room 21",
+        "label": "blank stock in printer",
+        "light": "morning from left"
+      },
+      "closing_state": {
+        "location": "packing desk",
+        "mira": "standing left",
+        "noah": "seated right",
+        "screen": "room 12",
+        "label": "blank stock in printer",
+        "light": "morning from left"
+      },
+      "bridge": "",
+      "beats": [
+        {
+          "start": 0,
+          "end": 5,
+          "camera": "Stable over-shoulder view from Mira's side.",
+          "action": "Mira reads the unchanged room number.",
+          "audio": "Mira speaks without rushing.",
+          "dialogue": [
+            {
+              "id": "D3",
+              "speaker": "MIRA",
+              "text": "It still has the old room number."
+            }
+          ],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          }
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "camera": "Cut to Noah in the same screen position.",
+          "action": "Noah indicates the monitor without moving the parcel.",
+          "audio": "Noah speaks.",
+          "dialogue": [
+            {
+              "id": "D4",
+              "speaker": "NOAH",
+              "text": "Change it to twelve."
+            }
+          ],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          }
+        },
+        {
+          "start": 8,
+          "end": 10,
+          "camera": "Monitor insert, same orientation.",
+          "action": "Mira types; room 21 changes to room 12.",
+          "audio": "Two soft key taps; no dialogue.",
+          "dialogue": [],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 21",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 12",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "duration": 10,
+      "lock_ids": [
+        "MIRA",
+        "NOAH",
+        "ROOM",
+        "LOOK"
+      ],
+      "opening_state": {
+        "location": "packing desk",
+        "mira": "standing left",
+        "noah": "seated right",
+        "screen": "room 12",
+        "label": "blank stock in printer",
+        "light": "morning from left"
+      },
+      "closing_state": {
+        "location": "packing desk",
+        "mira": "standing left",
+        "noah": "seated right",
+        "screen": "room 12",
+        "label": "printed room 12 beside parcel",
+        "light": "morning from left"
+      },
+      "bridge": "",
+      "beats": [
+        {
+          "start": 0,
+          "end": 4,
+          "camera": "Stable medium view of Mira and the monitor.",
+          "action": "Mira reads room 12, then presses print.",
+          "audio": "Mira speaks; printer begins at the end of the interval.",
+          "dialogue": [
+            {
+              "id": "D5",
+              "speaker": "MIRA",
+              "text": "Twelve. Now it matches."
+            }
+          ],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 12",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 12",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          }
+        },
+        {
+          "start": 4,
+          "end": 7,
+          "camera": "Cut to printer and parcel detail.",
+          "action": "Mira takes the printed room-12 label and places it beside the parcel.",
+          "audio": "Printer stops; light paper sound.",
+          "dialogue": [],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 12",
+            "label": "blank stock in printer",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 12",
+            "label": "printed room 12 beside parcel",
+            "light": "morning from left"
+          }
+        },
+        {
+          "start": 7,
+          "end": 10,
+          "camera": "Return to the established two-person view.",
+          "action": "Noah looks at the corrected label; both keep their positions.",
+          "audio": "Noah speaks, then room tone.",
+          "dialogue": [
+            {
+              "id": "D6",
+              "speaker": "NOAH",
+              "text": "Ready to send."
+            }
+          ],
+          "state_in": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 12",
+            "label": "printed room 12 beside parcel",
+            "light": "morning from left"
+          },
+          "state_out": {
+            "location": "packing desk",
+            "mira": "standing left",
+            "noah": "seated right",
+            "screen": "room 12",
+            "label": "printed room 12 beside parcel",
+            "light": "morning from left"
+          }
+        }
+      ]
+    }
+  ]
+}
